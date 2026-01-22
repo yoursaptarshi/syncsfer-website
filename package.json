@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^22.19.7",
     "@types/react": "19.2.8",
     "@types/three": "^0.182.0",
     "babel-plugin-react-compiler": "1.0.0",
