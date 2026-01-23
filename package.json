@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node -e \"const fs = require('fs'); if (fs.existsSync('public/.htaccess') && fs.existsSync('out')) { fs.copyFileSync('public/.htaccess', 'out/.htaccess'); console.log('.htaccess copied to out folder'); }\"",
     "start": "next start",
     "lint": "eslint"
   },
