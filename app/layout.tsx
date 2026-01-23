@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "Syncsfer - Revolutionary Skill Exchange Platform",
   description: "Exchange talents, time, and services seamlessly. Join the future where every skill has value — no money required.",
   icons: {
-    icon: '/favicon.ico?v=2',
-    shortcut: '/favicon.ico?v=2',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/logo.png',
   },
 };

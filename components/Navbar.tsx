@@ -17,7 +17,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [logoError, setLogoError] = useState(false);
-  const [logoSrc, setLogoSrc] = useState('/logo.png?v=2');
+  const [logoSrc, setLogoSrc] = useState('/logo.png');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,11 +65,11 @@ const Navbar = () => {
               onError={() => {
                 // Try alternative formats
                 if (logoSrc.includes('/logo.png')) {
-                  setLogoSrc('/logo.svg?v=2');
+                  setLogoSrc('/logo.svg');
                 } else if (logoSrc.includes('/logo.svg')) {
-                  setLogoSrc('/logo.jpg?v=2');
+                  setLogoSrc('/logo.jpg');
                 } else if (logoSrc.includes('/logo.jpg')) {
-                  setLogoSrc('/logo.webp?v=2');
+                  setLogoSrc('/logo.webp');
                 } else {
                   setLogoError(true);
                 }
